@@ -22,3 +22,15 @@ git push -u origin master
 
 git remote add origin https://github.com/balaji87/algorithms.git
 git push -u origin master
+
+
+echo "# Iyyppsys" >> Iyyppsys.md
+git init
+git add Iyyppsys.md
+git commit -m "Iyyppsys first commit"
+git remote add origin https://github.com/balaji87/divtag.git
+git push -u origin site
+
+git pull origin master --allow-unrelated-histories
+git checkout master
+git merge origin/master --allow-unrelated-histories
